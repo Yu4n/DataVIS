@@ -1,11 +1,10 @@
 import matplotlib.pyplot as plt
-import math
 
 x_values = range(1, 1000)
-y_values = [x * x for x in x_values]
+y_values = [x ** 2 for x in x_values]
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
-ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Greens, s=10)
+ax.scatter(x_values, y_values, c=y_values, cmap=plt.cm.Greens, s=10)  # cmap=plt.cm.Greens_r to reverse the colormap
 # ax.plot(input_values, squares, linewidth=3)
 
 # Set chart title and label axes.
