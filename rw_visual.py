@@ -11,7 +11,11 @@ while True:
     plt.style.use('seaborn-whitegrid')
     # print(plt.style.available)
     fig, ax = plt.subplots()
-    ax.scatter(rw.x_values, rw.y_values, s=10)
+    point_numbers = range(rw.num_points)
+    ax.scatter(rw.x_values, rw.y_values, c=point_numbers, cmap=plt.cm.Blues, edgecolors=None, s=10)
+
+    # Emphasize the first and last points.
+    
     # plt.savefig('random_walk.png')
     plt.show()
 
