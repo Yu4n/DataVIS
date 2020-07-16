@@ -36,6 +36,6 @@ plt.xlabel('', fontsize=16)
 plt.ylabel("Temperature (F)", fontsize=16)
 plt.tick_params(axis='both', which='minor', labelsize=16)
 fig.autofmt_xdate()
-plt.savefig('death_valley _highs_lows.png')
+# plt.savefig('death_valley _highs_lows.png')
 
 plt.show()
