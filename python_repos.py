@@ -16,12 +16,13 @@ repo_dicts = response_dict['items']
 print(f"Repositories returned: {len(repo_dicts)}")
 
 # Examine the first repository.
-repo_dict = repo_dicts[1]
-print(f"\nSelected information about the first repository:")
-print(f"Name: {repo_dict['name']}")
-print(f"Owner: {repo_dict['owner']['login']}")
-print(f"Stars: {repo_dict['stargazers_count']}")
-print(f"Repositories: {repo_dict['html_url']}")
-print(f"Created: {repo_dict['created_at']}")
-print(f"Updated: {repo_dict['updated_at']}")
-print(f"Description: {repo_dict['description']}")
+for i in range(5):
+    repo_dict = repo_dicts[i]
+    print(f"\nSelected information about the first repository:")
+    print(f"Name: {repo_dict['name']}")
+    print(f"Owner: {repo_dict['owner']['login']}")
+    print(f"Stars: {repo_dict['stargazers_count']}")
+    print(f"Repositories: {repo_dict['html_url']}")
+    print(f"Created: {repo_dict['created_at']}")
+    print(f"Updated: {repo_dict['updated_at']}")
+    print(f"Description: {repo_dict['description']}")
