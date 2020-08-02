@@ -1,0 +1,20 @@
+1.Title: NASA Astronauts Return Home in SpaceX's Crew Dragon Spacecraft [video]
+Discussion link: http://news.ycombinator.com/item?id=24024841
+Comments: 71
+
+2.Title: GPU Accelerated JavaScript
+Discussion link: http://news.ycombinator.com/item?id=24027487
+Comments: 41
+
+3.Title: Low latency tuning guide
+Discussion link: http://news.ycombinator.com/item?id=24027366
+Comments: 18
+
+4.Title: Local-first software: You Own Your Data, in spite of the Cloud [pdf]
+Discussion link: http://news.ycombinator.com/item?id=24027663
+Comments: 7
+
+5.Title: Illustrated Self-Guided Course On How To Use The Slide Rule
+Discussion link: http://news.ycombinator.com/item?id=24028351
+Comments: 5
+
